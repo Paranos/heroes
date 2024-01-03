@@ -1,0 +1,63 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* 2 columns */
+    grid-template-rows: repeat(4, 1fr); /* 2 rows with the first row taking 20% */
+    height: 100vh; /* 100% viewport height */
+}
+
+.active_monsters {
+    grid-column: 1 / 4;
+    grid-row-start: 1;
+    grid-row-end: 4;
+    background-color: #ccc; /* Gray background for the first row */
+}
+
+.hero1 {
+    grid-column: 2 / 4;
+    grid-row-start: 1;
+    grid-row-end: 3;
+    background-color: #5c1f1f; /* Gray background for the first row */
+}
+
+.hero2 {
+    grid-column: 3 / 4;
+    grid-row-start: 1;
+    grid-row-end: 3;
+    background-color: #2a3388; /* Gray background for the first row */
+}
+
+.hero3 {
+    grid-column: 2 / 4;
+    grid-row-start: 3;
+    grid-row-end: 5;
+    background-color: #97bb43; /* Gray background for the first row */
+}
+
+.hero4 {
+    grid-column: 3 / 4;
+    grid-row-start: 3;
+    grid-row-end: 5;
+    background-color: #3c7e6a; /* Gray background for the first row */
+}
+
+.monsters {
+    grid-column: span 1;
+    
+    grid-row: 4;
+    background-color: #f120e0; /* Gray background for the first row */
+}
+
+.spells {
+    grid-column: 4 / 4;
+    grid-row-start: 1;
+    grid-row-end: 5;
+    background-color: #ccc; /* Gray background for the first row */
+}
+
+

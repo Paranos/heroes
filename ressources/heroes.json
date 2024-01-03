@@ -1,0 +1,45 @@
+{
+    "heroes": [
+      {
+        "name": "Barbare",
+        "attack": 3,
+        "defense": 3,
+        "life": 8,
+        "spirit": 2,
+        "movement": 2,
+        "weapon": "Epée barbare",
+        "armor": ""
+      },
+      {
+        "name": "Nain",
+        "attack": 2,
+        "defense": 2,
+        "life": 7,
+        "spirit": 3,
+        "movement": 2,
+        "weapon": "Epée courte",
+        "armor": ""
+      },
+      {
+        "name": "Elfe",
+        "attack": 2,
+        "defense": 2,
+        "life": 6,
+        "spirit": 4,
+        "movement": 2,
+        "weapon": "Epée courte",
+        "armor": ""
+      },
+      {
+        "name": "Enchanteur",
+        "attack": 1,
+        "defense": 2,
+        "life": 4,
+        "spirit": 6,
+        "movement": 2,
+        "weapon": "Poignard",
+        "armor": ""
+      }
+    ]
+  }
+  

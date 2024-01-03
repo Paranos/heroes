@@ -1,0 +1,68 @@
+{
+    "monsters": [
+      {
+        "name": "Squelette",
+        "life": 1,
+        "attack": 2,
+        "defense": 2,
+        "spirit": 0,
+        "movement":6
+      },
+      {
+        "name": "Zombie",
+        "life": 1,
+        "attack": 3,
+        "defense": 2,
+        "spirit": 0,
+        "movement":5
+      },
+      {
+        "name": "Momie",
+        "life": 2,
+        "attack": 3,
+        "defense": 4,
+        "spirit": 0,
+        "movement":4
+      },
+      {
+        "name": "Orc",
+        "life": 1,
+        "attack": 3,
+        "defense": 2,
+        "spirit": 2,
+        "movement":8
+      },
+      {
+        "name": "Gobelin",
+        "life": 1,
+        "attack": 2,
+        "defense": 1,
+        "spirit": 1,
+        "movement":10
+      },
+      {
+        "name": "Abomination",
+        "life": 6,
+        "attack": 3,
+        "defense": 3,
+        "spirit": 3,
+        "movement":6
+      },
+      {
+        "name": "Guerrier de la terreur",
+        "life": 3,
+        "attack": 4,
+        "defense": 4,
+        "spirit": 3,
+        "movement":7
+      },
+      {
+        "name": "Gargouille",
+        "life": 3,
+        "attack": 4,
+        "defense": 5,
+        "spirit": 4,
+        "movement":6
+      }
+    ]
+  }
