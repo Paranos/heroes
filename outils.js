@@ -5,7 +5,7 @@ const ActiveMonsters = {};
 // Function to add a monster to ActiveMonsters
 async function addMonster(name) {
     try {
-        const response = await fetch('monsters.json');
+        const response = await fetch("./ressources/monsters.json");
         const monstersData = await response.json();
 
         if (monstersData[name]) {
